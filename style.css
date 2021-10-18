@@ -1,0 +1,90 @@
+.bg{
+    background-image: url(images/bg.jpg);
+}
+
+.bgm{
+    background-image: url(images/bg1.jpg);
+}
+ .bgw{
+     background-image: url(images/bgw.jpg);
+     
+ }
+
+#ah{
+    color: rgb(89, 0, 255);
+    font-weight: bold;
+    
+}
+
+a:hover{
+    background-color: white;
+   
+}
+
+.active{
+    background: rgba(248, 248, 248, 0.5);
+}
+
+#ah:hover{
+    color: rgb(165, 77, 248);
+}
+
+#fig-caption{
+    color: blanchedalmond;
+    font-weight: bold;
+}
+
+#hb{
+    font-size: 50px;
+    animation-name: colchng;
+   animation-duration: 10s;
+   animation-iteration-count: infinite;
+}
+
+@keyframes colchng {
+    0%   {color: rgb(247, 0, 0);}
+    10%  {color: rgb(55, 0, 255); font-size: 55px;}
+    20%  {color: rgb(47, 236, 10);font-size: 50px;}
+    30% {color: rgb(253, 152, 0);font-size: 55px;}
+    40% {color: rgb(0, 217, 255);font-size: 50px;}
+    50% {color: rgb(137, 139, 0);font-size: 55px;}
+    60% {color: rgb(10, 70, 10);font-size: 50px;}
+    70% {color: rgb(255, 0, 221);font-size: 55px;}
+    80% {color: rgb(233, 161, 68);font-size: 50px;}
+    90% {color: rgb(0, 0, 0);font-size: 55px;}
+    100% {color: rgb(255, 255, 255);font-size: 50px;}
+  }
+
+#hb1{
+    font-size: 35px;
+    padding-top: 50%;
+    animation-name: colchng1;
+   animation-duration: 10s;
+   animation-iteration-count: infinite;
+}
+@keyframes colchng1 {
+    0% {color: rgb(255, 255, 255);font-size: 50px;}
+    10% {color: rgb(0, 0, 0);font-size: 55px;}
+    20% {color: rgb(233, 161, 68);font-size: 50px;}
+    30% {color: rgb(255, 0, 221);font-size: 55px;}
+    40% {color: rgb(10, 70, 10);font-size: 50px;}
+    50% {color: rgb(137, 139, 0);font-size: 55px;}
+    60% {color: rgb(0, 217, 255);font-size: 50px;}
+    70% {color: rgb(253, 152, 0);font-size: 55px;}
+    80% {color: rgb(47, 236, 10);font-size: 50px;}
+    90% {color: rgb(55, 0, 255); font-size: 55px;}
+    100% {color: rgb(247, 0, 0);}
+}
+    
+
+#hbd{
+    text-align: center;
+    color: black;
+    padding-top: 5%;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    #hbd {padding-top: 20%;}
+  }
+  
